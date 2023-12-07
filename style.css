@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-right: 50px;
+}
+nav h1 {
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+}
+.register-form {
+  display: block;
+  margin: 100px auto;
+  width: 400px;
+}
+.register-form > label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.register-form > label > input {
+  outline: none;
+  width: 200px;
+  height: 30px;
+  padding: 5px 15px;
+}
+.register-form > button {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(29, 29, 235);
+  color: azure;
+  border-radius: 10px;
+  border: none;
+}
+.alert {
+  background-color: #7e3f3f9a;
+}
+.profile__card {
+  width: 500px;
+  margin: 0 auto;
+}
